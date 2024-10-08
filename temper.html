@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="score.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class= "columns">
+            <div class="column is-half is-offset-one-quarter ">
+                <div class="card  has-text-black">
+                    <div class="card-content">
+            <img  id ="img" src="https://www.health.com/thmb/RpF7vwJMvRwCNy4LJNwNmjo1TUU=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/thermometer-AdobeStock_300350158-2000-bc612aba576840a385a3571d0bc33bd3.jpg" alt="">
+            <p class="title">
+                Temperature Convertor
+            </p>
+            <h1 class="subtitle ">Use button to control input mode of Temperature...</h1>
+            <label for="playto" class="label is-inline is-large has-text-white">Input mode</label>
+                                    <div class="select is-rounded">
+                                        <select  id="mode" class="is-rounded has-background-primary has-text-dark">
+                                            <option value="celsius">Celcius</option>
+                                            <option value="fahrenheit">Fahrenheit</option> 
+                                        </select>
+                                    </div>
+                                    <label for="temp" class="label is-medium  has-text-dark">Enter the temp</label>
+                                    <input type="text" id="temp" class="input is-rounded is-small has has-background-light" placeholder="Enter the Temperature">
+                                    <button id="submit"  class="is-link button">submit</button>
+                                    <h3 class="title is-3 "><span class="has-text-dark" id="answer">0 K</span></h3>
+
+                    <footer class="card-footer">
+                        
+
+                        <button id="reset"  class="is-danger button card-footer-item"> Reset</button>
+                    
+                    
+                    </footer>
+                  </div>
+                  
+                 
+                  
+            </div>
+        </div>
+    </div>
+        
+     
+            
+    
+        
+        <script src="temper.js"></script>
+      
+    
+</body>
+</html>
